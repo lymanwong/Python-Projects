@@ -10,4 +10,4 @@ Click the Reset button to reset the entire game.<br>
 <br>
 It can be played at:<br>
 http://www.codeskulptor.org/#user22_EVEDLHPpNfVWNMi.py
-![alt tag](![alt tag](https://github.com/lymanwong/Python-projects/blob/master/memory/stopwatch.png)<br>)<br>
+![alt tag](![alt tag](https://github.com/lymanwong/Python-projects/blob/master/stopwatch/stopwatch.png)<br>
