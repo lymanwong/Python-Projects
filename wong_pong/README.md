@@ -5,6 +5,9 @@ Player 1:<br>
 w - up<br>
 s - down<br>
 <br>
-Player 2:
+Player 2:<br>
 keyup: up<br>
 keydown: down<br>
+<br>
+It can be played at:<br>
+http://www.codeskulptor.org/#user23_cQQt1vxUxkdlJE3.py
