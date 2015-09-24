@@ -15,5 +15,5 @@ def removeRotten(bagOfFruits):
 
 
 print removeRotten(["rottenApple","rottenBanana","rottenApple","rottenPineapple","rottenKiwi"]) #["apple","banana","apple","pineapple","kiwi"])
-print removeRotten([]), #[]
-print removeRotten(["Apple","banana","rottenApple","rottenPineapple","rottenKiwi"]), ["apple","banana","apple","pineapple","kiwi"])
+print removeRotten([]) #[]
+print removeRotten(["Apple","banana","rottenApple","rottenPineapple","rottenKiwi"]) #["apple","banana","apple","pineapple","kiwi"])
