@@ -5,7 +5,9 @@
 def removeRotten(bagOfFruits):
   goodfruits=[]
   for fruit in bagOfFruits:
-      if fruit[0:6] == 'rotten':
+      if len(bagOfFruits) == 0:
+          return goodfruits
+      elif fruit[0:6] == 'rotten':
          goodfruits.append(fruit[6:].lower())
       else:
           goodfruits.append(fruit.lower())
@@ -14,3 +16,4 @@ def removeRotten(bagOfFruits):
 
 print removeRotten(["rottenApple","rottenBanana","rottenApple","rottenPineapple","rottenKiwi"]) #["apple","banana","apple","pineapple","kiwi"])
 print removeRotten([]), #[]
+print removeRotten(["Apple","banana","rottenApple","rottenPineapple","rottenKiwi"]), ["apple","banana","apple","pineapple","kiwi"])
